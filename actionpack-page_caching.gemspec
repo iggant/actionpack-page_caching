@@ -16,6 +16,7 @@ Gem::Specification.new do |gem|
   gem.license       = 'MIT'
 
   gem.add_dependency "actionpack", ">= 5.0.0"
+  gem.add_dependency 'brotli', '>= 0.2.0'
 
   gem.add_development_dependency "mocha"
 end
